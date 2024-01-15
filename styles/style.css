@@ -52,7 +52,10 @@ img {
 }
 
 .top-bar .menu-bar span {
-    display: none;
+  display: none;
+  font-size: 1.5rem;
+  color: #131318;
+  cursor: pointer;
 }
 
 .top-bar .menu-bar ul li {
@@ -126,26 +129,25 @@ li:first-child {
   gap: 24px;
 }
 
-
 .box {
-    width: 174px;
-    height: 52px;
-    border-radius: 8px;
-background: #FFF;
-    padding: 16px;
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 1rem;
-    font-weight: 400;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .btn {
-    background: var(--orange);
-    outline: 0;
-    border: 0;
-    color: white;
-    font-weight: 700;
+  background: var(--orange);
+  outline: 0;
+  border: 0;
+  color: white;
+  font-weight: 700;
 }
 
 .btn > i {
-    margin-right: 8px;
+  margin-right: 8px;
 }
