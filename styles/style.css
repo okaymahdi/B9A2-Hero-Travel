@@ -1,5 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --primary: #424247;
+  --title: #131318;
+  --normal-text-primary: rgba(19, 19, 24, 0.7);
+  --normal-text-secondary: #5a5a5d;
+  --white: #fff;
+  --orange: #ff5400;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --placeholder-1: rgba(19, 19, 24, 0.5);
+  --placeholder-2: rgba(19, 19, 24, 0.3);
+  --bg: rgba(19, 19, 24, 0.05);
+}
+
+/* header styles */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 135px;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.logo-section > h3 > span {
+  color: var(--orange);
+}
+
+.top-bar-title {
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: var(--title);
+}
+
+.top-bar .menu-bar span {
+    display: none;
+}
+
+.top-bar .menu-bar ul li {
+  list-style: none;
+  margin-left: 44px;
+  display: inline-block;
+}
+
+.menu-bar ul li a {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--primary);
+  transition: all 0.5s ease-in;
+}
+
+li:first-child {
+  color: red;
+}
+
+.menu-bar ul li a:hover {
+  color: var(--orange);
+}
+
+/* banner styles */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/Group\ 13\ \(1\)\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+  margin: 60px 135px 100px 135px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+}
+
+.banner .container {
+  text-align: center;
+  align-items: center;
+  padding-top: 108px;
+}
+
+.banner .container > h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.banner .container > p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--white);
+  width: 676px;
+  margin: 0 auto 48px auto;
+}
+
+.banner .container > form {
+  /*! border-radius: 8px; */
+  background: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  /*! justify-content: center; */
+  /*! background-clip: content-box; */
+  padding: 16px;
+  border-radius: 8px;
+  gap: 24px;
+}
+
+
+.box {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+background: #FFF;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.btn {
+    background: var(--orange);
+    outline: 0;
+    border: 0;
+    color: white;
+    font-weight: 700;
+}
+
+.btn > i {
+    margin-right: 8px;
 }
