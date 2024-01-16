@@ -209,4 +209,7 @@
     flex-direction: column;
   }
   
+  .footer > p {
+    width: 287px;
+  }
 }
