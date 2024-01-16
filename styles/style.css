@@ -397,9 +397,150 @@
 }
 
 .card-text {
-  color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.8;
-width: 486px;
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  width: 486px;
+}
+
+.discount {
+  text-align: center;
+}
+
+.discount-title {
+  color: #131318;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.discount-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 486px;
+  margin: 24px auto 48px auto;
+}
+
+/* discount styles */
+.discount-card-1 {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: url("../images/Group 39.png"), rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 1140px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.discount-card-2 {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: url("../images/Group 40.png"), rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 1140px;
+  height: 500px;
+  margin: 0 auto;
+  margin: 24px auto;
+}
+
+.discount-card-3 {
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: url("../images/Group 39.png"), rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 1140px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.discount-text-1 {
+  width: 579px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  right: 55px;
+  top: 56px;
+  height: 389px;
+  text-align: left;
+  padding: 50px;
+}
+
+.discount-text-2 {
+  width: 579px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: 55px;
+  top: 56px;
+  height: 389px;
+  text-align: left;
+  padding: 50px;
+}
+
+.discount-text-3 {
+  width: 579px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  right: 55px;
+  top: 56px;
+  height: 389px;
+  text-align: left;
+  padding: 50px;
+}
+
+.discount-top {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.top-details {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.discount-title {
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.discount-details {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+  width: 452px;
+}
+
+.price {
+  color: #ff5400;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.btn-discount {
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.btn-bottom {
+  color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+margin: 24px auto 100px auto;
 }
