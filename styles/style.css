@@ -195,3 +195,117 @@
   line-height: 26px;
   margin-bottom: 32px;
 }
+
+/* destination styles */
+.destination-section {
+  text-align: center;
+  margin: 100px 60px;
+}
+
+.destination-section h2 {
+  color: #131318;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.destination-section p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 643px;
+  margin: 24px auto 48px auto;
+}
+
+.destination-section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 24px;
+}
+
+.destination-section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 24px;
+}
+
+.destination-section-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 24px;
+}
+
+
+.box-title {
+  padding: 130px 0;
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.box-1 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 5.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-2 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 8.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-3 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-4 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 7.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-5 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-6 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.box-7 {
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+  url('../images/Rectangle 10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}

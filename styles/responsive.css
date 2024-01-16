@@ -38,4 +38,8 @@
     .box {
         width: 318px;
     }
+
+    .popular {
+        flex-direction: column;
+    }
 }
