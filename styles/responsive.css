@@ -173,4 +173,40 @@
     width: 210px;
     margin: 20px auto;
   }
+
+  .get-lost {
+    flex-direction: column;
+    width: 355px;
+    margin: 20px auto;
+  }
+  
+  .get-lost-text {
+    width: 100%;
+  }
+  
+  .get-lost-video {
+    width: 335px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .get-lost-title {
+    font-size: 1.25rem;
+    width: 248px;
+  }
+  
+  .get-lost-description {
+    font-size: 0.9rem;
+    width: 335px;
+  }
+  
+  .get-lost-list {
+    font-size: 0.9rem;
+    width: 335px;
+  }
+
+  .get-lost-bottom {
+    flex-direction: column;
+  }
+  
 }
