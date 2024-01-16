@@ -1,83 +1,176 @@
-@media screen and (max-width: 600px) { 
-    .top-bar {
-        padding: 20px;
-      }
-    
-    .top-bar .menu-bar span {
-        display: block;
-    }
+@media screen and (max-width: 600px) {
+  .top-bar {
+    padding: 20px;
+  }
 
-    .top-bar .menu-bar ul li {
-        display: none;
-    }
+  .top-bar .menu-bar span {
+    display: block;
+  }
 
-    .banner {
-        margin: 20px;
-    }
+  .top-bar .menu-bar ul li {
+    display: none;
+  }
 
-    .banner .container {
-        padding-top: 32px;
-      }
+  .banner {
+    margin: 20px;
+  }
 
-    .banner .container > h1 {
-        font-size: 1.8rem;
-        margin-bottom: 8px;
-    }
+  .banner .container {
+    padding-top: 32px;
+  }
 
-    .banner .container > p {
-        font-size: 0.88rem;
-        width: 304px;
-        margin-bottom: 32px;
-    }
+  .banner .container > h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
 
-    .banner .container > form {
-        flex-direction: column;
-        gap: 16px;
-    }
+  .banner .container > p {
+    font-size: 0.88rem;
+    width: 304px;
+    margin-bottom: 32px;
+  }
 
-    .box {
-        width: 318px;
-    }
+  .banner .container > form {
+    flex-direction: column;
+    gap: 16px;
+  }
 
-    .popular {
-        flex-direction: column;
-    }
+  .box {
+    width: 318px;
+  }
 
-    .destination-section {
-        text-align: center;
-        margin: 100px 20px;
-    }
+  .popular {
+    flex-direction: column;
+  }
 
-    .destination-section h2 {
-        font-size: 1.75em;
-    }
+  .destination-section {
+    text-align: center;
+    margin: 100px 20px;
+  }
 
-    .destination-section p {
-        font-size: 0.9rem;
-        margin: 16px auto;
-        width: 309px;
-    }
+  .destination-section h2 {
+    font-size: 1.75em;
+  }
 
-    .destination-section-1 {
-        grid-template-columns:1fr;
-        gap: 16px;
-    }
+  .destination-section p {
+    font-size: 0.9rem;
+    margin: 16px auto;
+    width: 309px;
+  }
 
-    .destination-section-2 {
-        grid-template-columns:1fr;
-        gap: 16px;
-    }
+  .destination-section-1 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 
-    .destination-section-3 {
-        grid-template-columns:1fr;
-        gap: 16px;
-    }
+  .destination-section-2 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 
-    .activity-description {
-        width: 309px;
-    }
+  .destination-section-3 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 
-    .card-section {
-        margin: 16px 20px;
-    }
+  .activity-description {
+    width: 309px;
+  }
+
+  .card-section {
+    margin: 16px 20px;
+  }
+
+  .discount-description {
+    font-size: 0.9rem;
+    width: 309px;
+    margin: 16px auto;
+  }
+
+  .discount-card-1 {
+    backdrop-filter: blur(2.5px);
+    width: 335px;
+    position: relative;
+    height: 500px;
+  }
+
+  .discount-text-1 {
+    width: 303px;
+    position: absolute;
+    margin: 0 auto;
+    left: 5%;
+    top: 76px;
+    border-radius: 16px;
+  }
+
+  .discount-card-2 {
+    backdrop-filter: blur(2.5px);
+    width: 335px;
+    position: relative;
+    height: 500px;
+  }
+
+  .discount-text-2 {
+    width: 303px;
+    position: absolute;
+    margin: 0 auto;
+    left: 5%;
+    top: 76px;
+    border-radius: 16px;
+  }
+
+  .discount-card-3 {
+    backdrop-filter: blur(2.5px);
+    width: 335px;
+    position: relative;
+    height: 500px;
+  }
+
+  .discount-text-3 {
+    width: 303px;
+    position: absolute;
+    margin: 0 auto;
+    left: 5%;
+    top: 76px;
+    border-radius: 16px;
+  }
+
+  .discount-top {
+    flex-wrap: wrap;
+  }
+
+  .top-details {
+    font-size: 14px;
+  }
+
+  .discount-title {
+    font-size: 20px;
+    margin: 8px;
+  }
+
+  .discount-details {
+    font-size: 14px;
+    width: 254px;
+    margin-bottom: 0px;
+  }
+
+  .price {
+    color: #ff5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+
+  .btn-discount {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    width: 140px;
+  }
+
+  .box.btn.btn-bottom {
+    width: 210px;
+    margin: 20px auto;
+  }
 }
