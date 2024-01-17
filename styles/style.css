@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Mulish", sans-serif;
+  font-family: "Mulish";
   text-decoration: none;
 }
 
@@ -390,6 +390,11 @@
   margin: 100px 60px;
   justify-content: space-evenly;
   gap: 24px;
+}
+
+.card-section img {
+  width: 64px;
+  height: 64px;
 }
 
 .card-1 {
