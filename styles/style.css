@@ -196,6 +196,21 @@
   margin-bottom: 32px;
 }
 
+.btn-primary {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  background: var(--orange);
+  outline: 0;
+  border: 0;
+  color: white;
+  font-weight: 700;
+}
+
 /* destination styles */
 .destination-section {
   text-align: center;
