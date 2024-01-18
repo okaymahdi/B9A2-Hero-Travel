@@ -579,7 +579,11 @@
 
 video {
   border-radius: 16px;
-  background: linear-gradient( 180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100% );
+  background: linear-gradient(
+    180deg,
+    #131318 -31.96%,
+    rgba(19, 19, 24, 0) 100%
+  );
   border: none;
   width: 610px;
   height: 424px;
@@ -657,12 +661,16 @@ video {
 
 .text > .hr-row {
   color: rgba(19, 19, 24, 0.1);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
   text-align: left;
-  margin-bottom: 18px;
-  padding-left: 20px;
+  padding-left: 12px;
+  visibility: visible;
+}
+
+.hr-row-responsive {
+  color: rgba(19, 19, 24, 0.1);
+  text-align: left;
+  padding-left: 12px;
+  visibility: hidden;
 }
 
 .text > form {
@@ -713,10 +721,7 @@ video {
 .rooted {
   border-radius: 16px;
   background: #ff5400;
-  width: 324px;
-  height: 120px;
   transform: rotate(-19.628deg);
-  flex-shrink: 0;
   width: 324px;
   height: 120px;
   padding: 20px 30px;

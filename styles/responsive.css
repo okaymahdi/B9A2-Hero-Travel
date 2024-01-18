@@ -371,6 +371,14 @@
     margin-bottom: 16px;
   }
 
+  
+.text > .hr-row {
+  visibility: hidden;
+}
+.text > .hr-row-responsive {
+  visibility: visible;
+}
+
   .text > form > input[type="text"] {
     width: 288px;
   }
@@ -381,6 +389,27 @@
 
   .text > form > input[type="submit"] {
     width: 288px;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rooted {
+    width: 214px;
+    height: 79px;
+    padding: 10px 10px;
+    left: 118px;
+    bottom: 115px;
+  }
+
+  .rooted > p {
+    font-size: 0.94rem;
+  }
+
+  .rooted > h2 {
+    font-size: 1.32rem;
   }
 
 }
