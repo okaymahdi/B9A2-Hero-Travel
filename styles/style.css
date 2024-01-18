@@ -558,10 +558,6 @@
   margin-bottom: 16px;
   width: 452px;
 }
-/* 
-.btn-bottom {
-  margin-top: 60px;
-} */
 
 /* get lost styles */
 .get-lost {
@@ -804,11 +800,6 @@ video {
   margin-right: 10px;
 }
 
-.hr-row-bottom {
-  color: rgba(19, 19, 24, 0.1);
-  text-align: center;
-  margin: 50px auto;
-}
 
 .footer-bottom {
   color: #131318;

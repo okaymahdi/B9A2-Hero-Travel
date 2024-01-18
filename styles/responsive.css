@@ -209,11 +209,6 @@
     width: 271px;
   }
 
-  .discount {
-    text-align: center;
-    width: 375px;
-  }
-
   
   .discount-description {
     font-size: 0.9rem;
@@ -371,14 +366,6 @@
     margin-bottom: 16px;
   }
 
-  
-.text > .hr-row {
-  visibility: hidden;
-}
-.text > .hr-row-responsive {
-  visibility: visible;
-}
-
   .text > form > input[type="text"] {
     width: 288px;
   }
@@ -410,6 +397,28 @@
 
   .rooted > h2 {
     font-size: 1.32rem;
+  }
+
+  .footer {
+    width: 100%;
+    padding-top: 33px;
+    margin-top: -25px;
+    height: 309px;
+  }
+
+  .footer-title {
+    font-size: 1.32rem;
+  }
+
+  .footer > p {
+    font-size: 0.87rem;
+    line-height: 24px;
+    margin-bottom: 15px;
+    width: 287px;
+  }
+
+  .footer-bottom {
+    margin: 10px;
   }
 
 }
